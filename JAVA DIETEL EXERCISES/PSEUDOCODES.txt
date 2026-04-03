@@ -1,0 +1,86 @@
+PSEUDOCODES
+4.17 GAS MILEAGE
+TOP LEVEL
+ Collect inputs from user for miles driven and gallon used, store each in variables
+ Then loop over the miles and gallons used and calculate the miles per gallon
+ calculate the total miles driven and total gallons used for each trip
+ Print out the combined miles per gallon
+
+STEP-WISE
+ 
+Initialize totalMiles to 0
+Initialize totalGallons to 0
+Initialize tripCounts to 0
+
+Prompt user to enter miles driven or -1 to quit
+Input the miles driven 
+
+While miles is not equal to -1
+prompt the user to enter the gallons used
+Input the gallons used
+Initialize miles per gallon
+Add each mile to totalMiles
+Add each gallon to totalGallons
+Increase tripcount by 1
+
+Print of the total miles per gallon
+Initialize combined miles per gallon
+
+Prompt user to enter miles driven or -1 to quit
+Input the miles driven 
+
+If the tripcount is strictly equal to zero
+Print out a message
+Else, print out other messages
+
+4.19 Sales Commission Calculator
+TOP LEVEL
+Input one salesperson's items sold last week
+Calculate and display the salesperson's earnings
+
+STEP-WISE REFINEMENT
+Initialize itemCount to 1
+Intialize the itemsSold to 0
+initialize monthly fee $200
+
+While items sold is less than or equal to 4
+Prompt user to enter the price of item
+input price in a variable
+Add the price to the total itemsSold
+Declare variable commission is equal to
+Calculate the the totalitemsold * 0.09 + $200
+print the result
+
+4.20 TAX CALCULATOR
+TOP LEVEL
+Write a program that list the names and earnings of citizens
+Calculate and display the total tax for each citizen
+
+STEP-WISE REFINEMENT
+Initialise citizen count to 0;
+Prompt the user to enter the citizen name or -1 to quit
+Create a variable to store the name
+
+
+While the citizenCount is not equal to -1
+
+Prompt user to input the citizen's name
+Create a variable to store name
+Prompt the user to input citizen's earnings
+Create a variable to store earnings
+
+If earnings is equal to 30,000 
+Calculate the tax rate for earnings
+Print out the tax 
+Else if earnings is greater than 30,000 
+Calculate the tax rate for earnings
+Print out the tax
+Else, the citizen's earning remain unchanged 
+Print out, the earnings and message "No tax applied" 
+
+
+
+
+
+
+
